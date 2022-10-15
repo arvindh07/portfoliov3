@@ -1,10 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import tcs from "../utils/tcs.webp";
+import React from 'react';
 import { motion } from 'framer-motion';
-import html from "../utils/html.png";
-import css from "../utils/css.png";
-import javascript from "../utils/javascript.png";
-import { client } from '../client';
 
 const ExperienceCard = (props) => {
     const {experience} = props;

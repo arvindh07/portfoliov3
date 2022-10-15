@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { motion } from "framer-motion";
-import p1 from "../utils/p1-yt-clone.PNG";
 import { client } from '../client';
 
 const Projects = () => {
